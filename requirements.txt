@@ -1,0 +1,4 @@
+mysql-connector-python>=8.3
+requests>=2.31
+urllib3>=2.0
+streamlit>=1.28

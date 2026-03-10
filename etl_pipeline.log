@@ -1,0 +1,881 @@
+2026-03-10 15:17:30  INFO      etl.pipeline          🚀 Weather ETL Pipeline starting [FULL ETL] — 5 city/cities
+2026-03-10 15:17:30  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 15:17:30  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 15:17:30  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 15:17:30  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 15:17:32  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:32  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 15:17:32  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:32  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 15:17:32  INFO      etl.pipeline          [LOAD] ✓  336 rows upserted
+2026-03-10 15:17:32  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 15:17:32  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 15:17:33  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:33  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 15:17:33  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:33  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 15:17:33  INFO      etl.pipeline          [LOAD] ✓  336 rows upserted
+2026-03-10 15:17:33  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 15:17:33  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 15:17:34  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:34  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 15:17:34  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:34  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 15:17:34  INFO      etl.pipeline          [LOAD] ✓  336 rows upserted
+2026-03-10 15:17:34  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 15:17:34  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 15:17:35  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:35  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 15:17:35  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:35  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 15:17:35  INFO      etl.pipeline          [LOAD] ✓  336 rows upserted
+2026-03-10 15:17:35  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 15:17:35  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 15:17:36  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:36  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 15:17:36  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:36  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 15:17:36  INFO      etl.pipeline          [LOAD] ✓  336 rows upserted
+2026-03-10 15:17:36  INFO      etl.pipeline          =======================================================
+2026-03-10 15:17:36  INFO      etl.pipeline          📊 PIPELINE SUMMARY
+2026-03-10 15:17:36  INFO      etl.pipeline             Status            : SUCCESS
+2026-03-10 15:17:36  INFO      etl.pipeline             Cities processed  : 5/5
+2026-03-10 15:17:36  INFO      etl.pipeline             Records extracted : 1680
+2026-03-10 15:17:36  INFO      etl.pipeline             Records transformed: 1680
+2026-03-10 15:17:36  INFO      etl.pipeline             Records loaded    : 1680
+2026-03-10 15:17:36  INFO      etl.pipeline          =======================================================
+2026-03-10 15:17:47  INFO      etl.pipeline          🚀 Weather ETL Pipeline starting [FULL ETL] — 5 city/cities
+2026-03-10 15:17:47  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 15:17:47  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 15:17:47  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 15:17:47  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 15:17:48  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:48  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 15:17:48  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:48  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 15:17:48  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 15:17:49  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 15:17:49  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 15:17:49  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:49  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 15:17:49  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:49  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 15:17:49  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 15:17:50  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 15:17:50  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 15:17:50  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:50  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 15:17:50  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:50  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 15:17:50  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 15:17:50  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 15:17:50  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 15:17:51  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:51  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 15:17:51  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:51  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 15:17:51  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 15:17:51  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 15:17:51  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 15:17:51  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 15:17:51  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 15:17:51  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 15:17:51  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 15:17:51  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 15:17:52  INFO      etl.pipeline          =======================================================
+2026-03-10 15:17:52  INFO      etl.pipeline          📊 PIPELINE SUMMARY
+2026-03-10 15:17:52  INFO      etl.pipeline             Status            : SUCCESS
+2026-03-10 15:17:52  INFO      etl.pipeline             Cities processed  : 5/5
+2026-03-10 15:17:52  INFO      etl.pipeline             Records extracted : 1680
+2026-03-10 15:17:52  INFO      etl.pipeline             Records transformed: 1680
+2026-03-10 15:17:52  INFO      etl.pipeline             Records loaded    : 3360
+2026-03-10 15:17:52  INFO      etl.pipeline          =======================================================
+2026-03-10 18:44:32  INFO      etl.pipeline          🚀 Weather ETL Pipeline starting [FULL ETL] — 5 city/cities
+2026-03-10 18:44:32  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 18:44:32  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 18:44:32  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 18:44:32  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 18:44:34  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:44:34  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 18:44:34  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:44:34  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 18:44:34  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 18:44:34  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:44:34  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 18:44:34  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 18:44:35  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:44:35  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 18:44:35  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:44:35  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 18:44:35  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 18:44:35  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:44:35  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 18:44:35  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 18:44:36  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:44:36  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 18:44:36  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:44:36  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 18:44:36  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 18:44:36  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:44:36  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 18:44:36  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 18:44:37  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:44:37  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 18:44:37  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:44:37  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 18:44:37  INFO      etl.pipeline          [LOAD] ✓  648 rows upserted
+2026-03-10 18:44:37  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:44:37  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 18:44:37  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 18:44:37  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:44:37  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 18:44:38  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:44:38  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 18:44:38  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 18:44:38  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:44:38  INFO      etl.pipeline          =======================================================
+2026-03-10 18:44:38  INFO      etl.pipeline          📊 PIPELINE SUMMARY
+2026-03-10 18:44:38  INFO      etl.pipeline             Status            : SUCCESS
+2026-03-10 18:44:38  INFO      etl.pipeline             Cities processed  : 5/5
+2026-03-10 18:44:38  INFO      etl.pipeline             Records extracted : 1680
+2026-03-10 18:44:38  INFO      etl.pipeline             Records transformed: 1680
+2026-03-10 18:44:38  INFO      etl.pipeline             Records loaded    : 3336
+2026-03-10 18:44:38  INFO      etl.pipeline          =======================================================
+2026-03-10 18:45:09  INFO      etl.pipeline          🚀 Weather ETL Pipeline starting [FULL ETL] — 5 city/cities
+2026-03-10 18:45:09  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 18:45:09  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 18:45:09  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 18:45:09  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 18:45:10  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:45:10  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 18:45:10  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:45:10  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 18:45:10  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 18:45:11  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:45:11  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 18:45:11  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 18:45:11  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:45:11  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 18:45:11  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:45:11  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 18:45:11  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 18:45:12  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:45:12  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 18:45:12  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 18:45:12  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:45:12  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 18:45:12  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:45:12  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 18:45:12  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 18:45:13  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:45:13  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 18:45:13  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 18:45:13  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:45:13  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 18:45:13  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:45:13  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 18:45:13  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 18:45:14  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:45:14  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 18:45:14  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 18:45:14  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 18:45:14  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 18:45:14  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 18:45:14  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 18:45:14  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 18:45:15  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 18:45:15  INFO      etl.pipeline          =======================================================
+2026-03-10 18:45:15  INFO      etl.pipeline          📊 PIPELINE SUMMARY
+2026-03-10 18:45:15  INFO      etl.pipeline             Status            : SUCCESS
+2026-03-10 18:45:15  INFO      etl.pipeline             Cities processed  : 5/5
+2026-03-10 18:45:15  INFO      etl.pipeline             Records extracted : 1680
+2026-03-10 18:45:15  INFO      etl.pipeline             Records transformed: 1680
+2026-03-10 18:45:15  INFO      etl.pipeline             Records loaded    : 3360
+2026-03-10 18:45:15  INFO      etl.pipeline          =======================================================
+2026-03-10 19:20:22  INFO      etl.pipeline          🚀 Weather ETL Pipeline starting [FULL ETL] — 5 city/cities
+2026-03-10 19:20:22  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:20:22  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:20:22  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 19:20:22  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 19:20:23  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:23  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 19:20:23  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:23  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 19:20:24  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:20:24  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:24  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:20:24  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:20:24  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:24  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:20:24  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:24  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:20:25  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:20:25  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:25  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 19:20:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 19:20:25  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:25  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 19:20:25  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:25  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 19:20:25  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:20:26  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:26  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 19:20:26  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 19:20:26  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:26  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 19:20:26  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:26  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 19:20:26  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:20:27  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:27  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 19:20:27  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 19:20:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 19:20:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 19:20:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:20:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:28  INFO      etl.pipeline          =======================================================
+2026-03-10 19:20:28  INFO      etl.pipeline          📊 PIPELINE SUMMARY
+2026-03-10 19:20:28  INFO      etl.pipeline             Status            : SUCCESS
+2026-03-10 19:20:28  INFO      etl.pipeline             Cities processed  : 5/5
+2026-03-10 19:20:28  INFO      etl.pipeline             Records extracted : 1680
+2026-03-10 19:20:28  INFO      etl.pipeline             Records transformed: 1680
+2026-03-10 19:20:28  INFO      etl.pipeline             Records loaded    : 3360
+2026-03-10 19:20:28  INFO      etl.pipeline          =======================================================
+2026-03-10 19:20:46  INFO      etl.pipeline          🚀 Weather ETL Pipeline starting [DRY RUN] — 5 city/cities
+2026-03-10 19:20:46  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 19:20:46  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 19:20:48  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:48  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 19:20:48  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:48  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:48  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:20:48  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:20:48  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:48  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:20:48  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:49  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:49  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 19:20:49  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 19:20:49  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:49  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 19:20:49  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:50  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:50  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 19:20:50  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 19:20:50  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:50  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 19:20:50  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:50  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:50  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 19:20:50  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 19:20:51  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:20:51  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 19:20:51  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:20:51  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:20:51  INFO      etl.pipeline          =======================================================
+2026-03-10 19:20:51  INFO      etl.pipeline          📊 PIPELINE SUMMARY
+2026-03-10 19:20:51  INFO      etl.pipeline             Status            : SUCCESS
+2026-03-10 19:20:51  INFO      etl.pipeline             Cities processed  : 5/5
+2026-03-10 19:20:51  INFO      etl.pipeline             Records extracted : 1680
+2026-03-10 19:20:51  INFO      etl.pipeline             Records transformed: 1680
+2026-03-10 19:20:51  INFO      etl.pipeline             Records loaded    : 0
+2026-03-10 19:20:51  INFO      etl.pipeline          =======================================================
+2026-03-10 19:21:25  INFO      etl.pipeline          🚀 Weather ETL Pipeline starting [FULL ETL] — 1 city/cities
+2026-03-10 19:21:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:21:26  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:21:26  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 19:21:26  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 19:21:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:21:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 19:21:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:21:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 19:21:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:21:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:21:28  INFO      etl.pipeline          =======================================================
+2026-03-10 19:21:28  INFO      etl.pipeline          📊 PIPELINE SUMMARY
+2026-03-10 19:21:28  INFO      etl.pipeline             Status            : SUCCESS
+2026-03-10 19:21:28  INFO      etl.pipeline             Cities processed  : 1/1
+2026-03-10 19:21:28  INFO      etl.pipeline             Records extracted : 336
+2026-03-10 19:21:28  INFO      etl.pipeline             Records transformed: 336
+2026-03-10 19:21:28  INFO      etl.pipeline             Records loaded    : 672
+2026-03-10 19:21:28  INFO      etl.pipeline          =======================================================
+2026-03-10 19:27:26  INFO      etl.pipeline          🚀 Weather ETL Pipeline starting [FULL ETL] — 5 city/cities
+2026-03-10 19:27:26  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:27:26  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:27:26  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 19:27:26  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 19:27:28  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:27:28  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 19:27:28  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:27:28  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 19:27:28  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:27:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:27:28  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:27:28  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:27:28  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:27:28  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:27:28  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:27:28  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:27:29  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:27:29  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:27:29  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 19:27:29  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 19:27:29  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:27:29  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 19:27:29  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:27:29  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 19:27:29  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:27:30  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:27:30  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 19:27:30  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 19:27:30  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:27:30  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 19:27:30  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:27:30  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 19:27:30  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:27:31  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:27:31  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 19:27:31  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 19:27:31  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:27:31  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 19:27:31  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:27:31  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 19:27:31  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:27:32  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:27:32  INFO      etl.pipeline          =======================================================
+2026-03-10 19:27:32  INFO      etl.pipeline          📊 PIPELINE SUMMARY
+2026-03-10 19:27:32  INFO      etl.pipeline             Status            : SUCCESS
+2026-03-10 19:27:32  INFO      etl.pipeline             Cities processed  : 5/5
+2026-03-10 19:27:32  INFO      etl.pipeline             Records extracted : 1680
+2026-03-10 19:27:32  INFO      etl.pipeline             Records transformed: 1680
+2026-03-10 19:27:32  INFO      etl.pipeline             Records loaded    : 3360
+2026-03-10 19:27:32  INFO      etl.pipeline          =======================================================
+2026-03-10 19:41:14  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:41:14  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:41:14  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:41:14  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:41:14  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:41:14  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:41:14  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 19:41:14  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 19:41:14  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 19:41:14  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 19:41:14  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 19:41:14  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 19:41:16  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:16  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:16  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:16  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 19:41:16  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 19:41:16  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 19:41:16  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:16  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:16  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:16  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 19:41:16  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 19:41:16  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 19:41:16  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:16  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:16  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:17  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:17  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:17  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:17  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:41:17  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:41:17  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:41:17  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:41:17  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:41:17  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:41:17  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:17  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:17  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:17  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:41:17  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:41:17  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:41:17  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:17  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:17  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:17  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:41:17  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:41:17  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:41:17  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:17  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:17  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:18  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:18  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:18  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:18  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 19:41:18  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 19:41:18  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 19:41:18  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 19:41:18  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 19:41:18  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 19:41:18  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:18  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:18  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:18  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 19:41:18  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 19:41:18  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 19:41:18  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:18  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:18  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:18  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 19:41:18  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 19:41:18  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 19:41:18  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:18  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:18  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:19  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:19  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:19  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:19  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 19:41:19  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 19:41:19  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 19:41:19  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 19:41:19  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 19:41:19  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 19:41:19  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:19  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:19  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:19  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 19:41:19  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 19:41:19  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 19:41:19  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:19  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:19  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:19  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 19:41:19  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 19:41:19  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 19:41:19  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:19  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:19  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:20  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:20  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:20  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:20  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 19:41:20  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 19:41:20  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 19:41:20  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 19:41:20  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 19:41:20  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 19:41:20  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:20  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:20  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:20  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 19:41:20  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 19:41:20  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 19:41:20  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:20  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:20  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:20  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 19:41:20  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 19:41:20  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 19:41:20  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:20  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:20  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:21  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:21  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:21  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:53  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:41:53  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:41:53  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:41:53  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:41:53  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:41:53  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:41:53  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:41:53  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:41:53  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:41:53  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:41:53  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:41:53  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:41:53  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:41:53  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:41:53  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:41:53  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:41:53  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:41:53  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:41:53  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:41:53  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:41:53  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:41:53  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:41:53  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:41:53  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:41:55  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:55  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:55  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:55  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:55  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:41:55  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:59:31  INFO      etl.pipeline          🚀 Weather ETL Pipeline starting [FULL ETL] — 5 city/cities
+2026-03-10 19:59:31  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 19:59:31  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 19:59:31  INFO      etl.pipeline          ━━━ Processing: New York ━━━
+2026-03-10 19:59:31  INFO      etl.pipeline          [EXTRACT] Fetching weather data for New York
+2026-03-10 19:59:33  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:59:33  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for New York
+2026-03-10 19:59:33  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:59:33  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for New York
+2026-03-10 19:59:33  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:59:33  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:59:33  INFO      etl.pipeline          ━━━ Processing: London ━━━
+2026-03-10 19:59:33  INFO      etl.pipeline          [EXTRACT] Fetching weather data for London
+2026-03-10 19:59:34  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:59:34  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for London
+2026-03-10 19:59:34  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:59:34  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for London
+2026-03-10 19:59:34  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:59:34  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:59:34  INFO      etl.pipeline          ━━━ Processing: Tokyo ━━━
+2026-03-10 19:59:34  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Tokyo
+2026-03-10 19:59:35  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:59:35  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Tokyo
+2026-03-10 19:59:35  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:59:35  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Tokyo
+2026-03-10 19:59:35  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:59:35  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:59:35  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 19:59:35  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 19:59:36  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:59:36  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 19:59:36  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:59:36  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 19:59:36  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:59:36  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:59:36  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 19:59:36  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 19:59:37  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 19:59:37  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 19:59:37  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 19:59:37  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 19:59:37  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 19:59:37  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 19:59:37  INFO      etl.pipeline          =======================================================
+2026-03-10 19:59:37  INFO      etl.pipeline          📊 PIPELINE SUMMARY
+2026-03-10 19:59:37  INFO      etl.pipeline             Status            : SUCCESS
+2026-03-10 19:59:37  INFO      etl.pipeline             Cities processed  : 5/5
+2026-03-10 19:59:37  INFO      etl.pipeline             Records extracted : 1680
+2026-03-10 19:59:37  INFO      etl.pipeline             Records transformed: 1680
+2026-03-10 19:59:37  INFO      etl.pipeline             Records loaded    : 3360
+2026-03-10 19:59:37  INFO      etl.pipeline          =======================================================
+2026-03-10 20:00:51  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:00:51  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:00:51  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:00:51  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:00:51  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:00:51  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:00:52  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:00:52  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:00:52  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:00:52  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:00:52  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:00:52  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:00:52  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 20:00:52  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 20:00:52  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 20:00:52  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 20:00:52  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 20:00:52  INFO      etl.pipeline          ━━━ Processing: Dubai ━━━
+2026-03-10 20:00:52  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 20:00:52  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 20:00:52  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 20:00:52  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 20:00:52  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 20:00:52  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:00:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:00:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:00:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:00:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:00:54  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:00:54  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Dubai
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:00:54  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:00:54  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:00:54  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:00:54  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:00:54  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:00:54  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:00:54  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.pipeline          🗄️  Initialising database schema...
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.loader            Schema initialised (table + 3 analytical views)
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          ━━━ Processing: Sydney ━━━
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:25  INFO      etl.pipeline          [EXTRACT] Fetching weather data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [EXTRACT] ✓  336 hourly records
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] Cleaning and enriching data for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [TRANSFORM] ✓  336 records ready
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] Inserting records into MySQL for Sydney
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:27  INFO      etl.pipeline          [LOAD] ✓  672 rows upserted
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
+2026-03-10 20:11:28  INFO      etl.pipeline          Waiting 0.5 seconds before next request
